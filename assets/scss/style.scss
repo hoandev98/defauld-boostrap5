@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: mac365 - Shoes Store Bootstrap 5 Template
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01. 404
+    02. Animation
+    03. Blog detail
+    04. Blog
+    05. Cart
+    06. Template default CSS
+    07. Dashboad
+    08. Default
+    09. Footer
+    10. Header
+    11. Home
+    12. Offcanvas
+    13. Register
+    14. Brand
+    15. Product-detail
+ 
+https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap
+-----------------------------------------------------------------------------------*/
+
+/*-- Google Font --*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@import "mixins";
+@import "variables";
+@import "common";
+@import "offcanvas";
+@import "default";
+@import "header";
+@import "footer";
+@import "category-detail";
+@import "index";
+@import "product-detail";
+@import "blog";
+@import "lienhe";
+@import "thuemay";

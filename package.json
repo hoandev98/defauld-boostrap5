@@ -1,0 +1,17 @@
+{
+  "name": "mac365",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./assets/scss/style.scss -o ./assets/css/"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "node-sass": "^6.0.0"
+  },
+  "keywords": [],
+  "author": "hoannguyen",
+  "license": "ISC"
+}

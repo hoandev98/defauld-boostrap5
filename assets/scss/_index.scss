@@ -1,0 +1,289 @@
+.banner-iphone,
+.banner-iphone-dark,
+.banner-ipad {
+  .img-banner-iphone,
+  .img-banner-ipad,
+  .img-banner-iphone-dark {
+    @media (max-width: 992px) {
+      min: height 548px;
+      min-width: 743px;
+    }
+    @media (min-width: 992px) and (max-width: 1068px) {
+      min-width: 1068px;
+      min-height: 617px;
+    }
+    @media (min-width: 1069px) {
+      min-width: 3010px;
+      min-height: 624px;
+    }
+  }
+}
+
+.banner-ipad-pro,
+.banner-imac,
+.banner-apple-watch,
+.banner-fitness,
+.banner-news,
+.banner-tv {
+  .img-banner-ipad-pro,
+  .img-banner-imac,
+  .img-banner-apple-watch,
+  .img-banner-fitness,
+  .img-banner-news,
+  .img-banner-tv {
+    @media (max-width: 992px) {
+      min-width: 734px;
+      min-height: 548px;
+      &:nth-child(4) {
+        min-width: 734;
+        min-height: 285px;
+      }
+    }
+    @media (min-width: 992px) and (max-width: 1068px) {
+      min-width: 516px;
+      min-height: 490px;
+      &:nth-child(4) {
+        min-width: 516px;
+        min-height: 264px;
+      }
+    }
+    @media (min-width: 1069px) {
+      min-width: 1262px;
+      min-height: 580px;
+      &:nth-child(4) {
+        min-width: 1154px;
+        min-height: 344px;
+      }
+    }
+  }
+}
+.banner-cols-2 {
+  > div {
+    padding: 0 !important;
+  }
+  @media (min-width: 992px) {
+    > div {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      &:nth-child(odd) {
+        padding-left: 30px !important;
+        padding-right: 10px !important;
+      }
+      &:nth-child(even) {
+        padding-left: 10px !important;
+        padding-right: 30px !important;
+      }
+    }
+  }
+}
+.banner-iphone {
+  .about-iphone {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      font-size: 32px;
+      font-weight: 400;
+    }
+    h3 {
+      font-size: 19px;
+    }
+    p {
+      color: rgb(134, 134, 139);
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-iphone-dark {
+  .about-iphone-pro {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: $white;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    h3 {
+      color: $white;
+      font-size: 19px;
+    }
+    p {
+      color: rgb(134, 134, 139);
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-ipad {
+  .about-ipad {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      font-size: 32px;
+      font-weight: 400;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-ipad-pro {
+  .about-ipad-pro {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: $white;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    h3 {
+      color: $white;
+      font-size: 19px;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-imac {
+  .about-imac {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: #000;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #000;
+      font-size: 19px;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-apple-watch {
+  .about-apple-watch {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: $white;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    h5 {
+      color: red;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    h3 {
+      color: $white;
+      font-size: 19px;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-fitness {
+  @media (max-width: 992px) {
+    min-height: 548px;
+  }
+  background: #fbfbfd;
+  .about-fitness {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: #000;
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    h3 {
+      color: rgb(29, 29, 31);
+      font-size: 19px;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: rgb(0, 102, 204);
+      font-size: 17px;
+    }
+  }
+}
+.banner-news {
+  .about-news {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      color: #000;
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    h3 {
+      color: rgb(29, 29, 31);
+      font-size: 19px;
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      color: #000;
+      font-size: 17px;
+    }
+  }
+}
+.banner-tv {
+  .about-play-stream {
+    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    h5 {
+      color: $white;
+      font-weight: bolder;
+      font-style: italic;
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 19px;
+      color: $white;
+    }
+  }
+  .about-tv {
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      font-size: 32px;
+      font-weight: 400;
+      color: $white;
+    }
+  }
+}
