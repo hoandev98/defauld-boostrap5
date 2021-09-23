@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
-    Template Name: mac365 - Shoes Store Bootstrap 5 Template
+    Template Name: mac365 - Store Bootstrap 5 Template
     Version: 1.0
 -----------------------------------------------------------------------------------
     
@@ -15,13 +15,9 @@
     06. Template default CSS
     07. Dashboad
     08. Default
-    09. Footer
     10. Header
-    11. Home
     12. Offcanvas
     13. Register
-    14. Brand
-    15. Product-detail
  
 https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap
@@ -2221,30 +2217,6 @@ blockquote {
     top: -5px;
     right: -10px; } }
 
-footer > div:first-child > div > ul > li {
-  line-height: 25px; }
-  footer > div:first-child > div > ul > li a:hover {
-    text-decoration: underline;
-    color: #009ef9 !important; }
-
-.content .text-product-highlights > a:hover h3 {
-  text-decoration: underline;
-  color: #e60834 !important; }
-
-.content .text-sub-product > div > h1:hover > a {
-  text-decoration: underline;
-  color: #e60834 !important; }
-
-.content .text-sub-product > div > a:hover > img {
-  opacity: 0.7; }
-
-.content .text-product > div > h3:hover > a {
-  text-decoration: underline;
-  color: #e60834 !important; }
-
-.content .image-product > div:hover img {
-  opacity: 0.7; }
-
 @media (max-width: 992px) {
   .banner-iphone .img-banner-iphone,
   .banner-iphone .img-banner-ipad,
@@ -2686,177 +2658,3 @@ footer > div:first-child > div > ul > li {
     font-size: 32px;
     font-weight: 400;
     color: #ffffff; }
-
-.product_detail--content .icon-brand > div a img {
-  max-height: 100px; }
-
-.product_detail--content .product-detail .about-product .desc-product {
-  padding-bottom: 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  .product_detail--content .product-detail .about-product .desc-product > a {
-    padding-right: 5px;
-    color: #009ef9; }
-    .product_detail--content .product-detail .about-product .desc-product > a:not(:nth-child(3)) {
-      border-right: 1px solid #8d8d96; }
-  .product_detail--content .product-detail .about-product .desc-product ul {
-    padding-left: 10px; }
-    .product_detail--content .product-detail .about-product .desc-product ul li {
-      list-style: disc; }
-
-.product_detail--content .product-detail .about-product .price-product {
-  padding-top: 30px;
-  color: #5a5a5a;
-  font-size: 24px;
-  font-weight: 700; }
-
-.product_detail--content .product-detail .about-product > div > div > img {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding-left: 20px;
-  padding-right: 20px;
-  max-height: 80px; }
-
-.product_detail--content .product-detail .prameter ul li {
-  list-style: disc; }
-
-@media (max-width: 426px) {
-  .content-blog .blog-menu {
-    overflow-x: scroll; }
-    .content-blog .blog-menu .scroll-x {
-      flex-wrap: nowrap;
-      justify-content: start !important; }
-      .content-blog .blog-menu .scroll-x > .text-center {
-        width: auto;
-        padding-bottom: 8px; } }
-
-.content-blog .blog-menu > div:nth-child(4) > a:active {
-  font-weight: bolder;
-  position: relative; }
-  .content-blog .blog-menu > div:nth-child(4) > a:active::after {
-    content: "";
-    height: 4px;
-    width: 100%;
-    background: red;
-    position: absolute;
-    bottom: -5px;
-    left: 0; }
-
-.content-blog .blog-posts .news-user .avt-user {
-  height: 30px;
-  width: 30px;
-  background: red;
-  border-radius: 50%; }
-
-@media (min-width: 992px) {
-  .content-blog .blog-posts .tab-left {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px; } }
-
-.content-blog .blog-posts .tab-left > div:not(:first-child) {
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
-
-.content-blog .blog-posts .see-more {
-  padding: 5px 40px;
-  background: #e9ecef;
-  color: #8392a5;
-  border: none;
-  border-radius: 3px; }
-
-@media (min-width: 992px) {
-  .content-blog .blog-posts .tab-right--top {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px; } }
-
-.content-blog .blog-posts .tab-right--top ul {
-  border-top: rgba(0, 0, 0, 0.1) 1px solid;
-  padding-top: 10px; }
-  .content-blog .blog-posts .tab-right--top ul .top-views {
-    line-height: 16px;
-    padding: 5px 0; }
-    .content-blog .blog-posts .tab-right--top ul .top-views-1 {
-      background: #cb1c22; }
-    .content-blog .blog-posts .tab-right--top ul .top-views-2 {
-      background: #99a2aa; }
-    .content-blog .blog-posts .tab-right--top ul .top-views-3 {
-      background: #ced4da; }
-    .content-blog .blog-posts .tab-right--top ul .top-views > span {
-      line-height: 20px;
-      font-size: 14px;
-      font-weight: bold;
-      margin-right: 10px;
-      color: #fff;
-      text-align: center;
-      line-height: 40px;
-      flex: 0 0 40px;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%; }
-    .content-blog .blog-posts .tab-right--top ul .top-views a {
-      max-height: 36px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; }
-
-@media (min-width: 992px) {
-  .content-blog .blog-posts .tab-right--mid {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px; } }
-
-.content-blog .blog-posts .tab-right--mid ul {
-  border-top: rgba(0, 0, 0, 0.1) 1px solid;
-  padding-top: 10px; }
-
-@media (min-width: 992px) {
-  .content-blog .blog-posts .tab-right--bot {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px; } }
-
-.content-blog .blog-posts .tab-right--bot ul {
-  border-top: rgba(0, 0, 0, 0.1) 1px solid;
-  padding-top: 10px; }
-  .content-blog .blog-posts .tab-right--bot ul li a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: -86px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), #000); }
-  .content-blog .blog-posts .tab-right--bot ul li a h5 {
-    bottom: -70px;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-    font-size: 15px;
-    line-height: 20px;
-    max-height: 40px;
-    overflow: hidden;
-    margin-bottom: 0;
-    color: #fff;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; }
-
-.form-lienhe-right form > div:not(:last-child) input,
-.form-lienhe-right form > div:not(:last-child) textarea {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.85;
-  color: #4c4c4c;
-  padding: 5px 30px;
-  margin-bottom: 20px;
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0; }
-  .form-lienhe-right form > div:not(:last-child) input:hover,
-  .form-lienhe-right form > div:not(:last-child) textarea:hover {
-    border: 1px solid rgba(0, 0, 0, 0.5) !important; }
-
-.form-lienhe-right form > div:last-child input {
-  color: #fff;
-  background-color: #000;
-  border: none;
-  width: 100%;
-  padding: 5px 0; }
-
-.form-thuemay {
-  font-family: Arial, Helvetica, sans-serif; }

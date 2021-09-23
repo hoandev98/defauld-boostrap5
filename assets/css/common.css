@@ -1,0 +1,13 @@
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --white: #ffffff;
+  --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
