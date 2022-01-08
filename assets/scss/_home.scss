@@ -1,0 +1,64 @@
+.content {
+    .homeBanner {
+        background-image: url(../images/home/banner.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        &-search {
+            width: 70%;
+            &--partner {
+                height: 54px;
+                background: white;
+                width: 15%;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+            }
+            &--enter-text {
+                height: 54px;
+                width: 75%;
+                input {
+                    height: 54px;
+                    border: 0;
+                    width: 100%;
+                    &::placeholder {
+                        color: #839cb0;
+                        font-size: 16;
+                        font-style: italic;
+                    }
+                }
+            }
+            &--btn-search {
+                width: 10%;
+                height: 54px;
+                background: #5287ed;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+            }
+        }
+        &-btn-signup {
+            padding: 16px 0;
+            background: #5287ed;
+            border-radius: 30px;
+            width: 220px;
+            margin-top: 40px;
+        }
+        &-shipping-info {
+            &-item {
+                box-shadow: 0px 4px 20px rgba(119, 132, 157, 0.2);
+                border-radius: 4px;
+                min-width: 350px;
+                min-height: 300px;
+                background: #fff;
+                .line-purple {
+                    width: 64px;
+                    height: 5px;
+                    background: #7a77ee;
+                }
+            }
+        }
+    }
+    .homeInstall {
+        background-image: url(../images/home/background1.png);
+        background-repeat: no-repeat;
+        background-size: stretch;
+    }
+}

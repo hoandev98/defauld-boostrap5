@@ -1,16 +1,21 @@
 /*----------------------------------------*/
+
 /*  6. Template default CSS
 /*----------------------------------------*/
 
 /*-- Common Style --*/
+
 html {
   // scroll-behavior: smooth;
   &:-webkit-scrollbar {
     display: none;
   }
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
+
 html,
 body {
   height: 100%;
@@ -19,6 +24,7 @@ body {
     font-weight: 600 !important;
   }
 }
+
 body {
   font-family: $montserrat-font;
   color: $mac365-secondary;
@@ -28,6 +34,7 @@ body {
     }
   }
 }
+
 a {
   color: $mac365-secondary;
   text-decoration: none;
@@ -35,6 +42,7 @@ a {
     color: $mac365-primary;
   }
 }
+
 a,
 button,
 .btn,
@@ -42,6 +50,7 @@ img,
 input {
   transition: $baseTransition;
 }
+
 a,
 button,
 .btn,
@@ -58,27 +67,33 @@ textarea,
     box-shadow: none;
   }
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 img {
   max-width: 100%;
 }
+
 .img-full {
   width: 100%;
   overflow: hidden;
   object-fit: cover;
   object-position: center center;
 }
+
 ::selection {
   background-color: $mac365-primary;
   color: $white;
 }
+
 .main-mb {
   padding-top: 10px;
 }
+
 .btn-slide-mb {
   min-width: 20px;
   width: 20px;
@@ -88,6 +103,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 body {
   .btn-outline-secondary:hover {
     color: $white !important;
@@ -95,7 +111,9 @@ body {
     border-color: #000 !important;
   }
 }
+
 /* ---Custom Container--- */
+
 .container {
   @include breakpoint(min-xxl-device) {
     --bs-gutter-x: 15px;
@@ -105,18 +123,23 @@ body {
     }
   }
 }
+
 .black-color {
   color: $mac365-primary;
 }
+
 .pl-5 {
   padding-left: 5px;
 }
+
 .pr-5 {
   padding-right: 5px;
 }
+
 .pr-0 {
   padding-right: 0;
 }
+
 .ml-5 {
   margin-left: -5px;
 }
@@ -124,40 +147,64 @@ body {
 .ml-3 {
   margin-left: 3px;
 }
+
 .ml-30 {
   margin-left: 30px;
 }
+
 .mr-5 {
   margin-right: -5px;
 }
+
 /* heading tag */
+
 .fw-500 {
   font-weight: 500;
 }
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
 h1 {
   font-size: 30px;
   &.p-detail {
     font-size: 25px;
   }
 }
+
 h2 {
   font-size: 24px;
 }
+
 h3 {
   font-size: 20px;
 }
+
 h4 {
   font-size: 18px;
 }
+
 h5 {
   font-size: 16px;
 }
+
 h6 {
   font-size: 15.4px;
 }
+
 p {
   font-size: 17px;
 }
+
 @include breakpoint(max-md-device) {
   h1 {
     &.product {
@@ -184,7 +231,9 @@ p {
     font-size: 14px;
   }
 }
+
 /* ---Section Space--- */
+
 .section-space {
   &-top {
     &-100 {
@@ -353,6 +402,7 @@ p {
 /* --End Here-- */
 
 /* ---Custom Gutter Space--- */
+
 .g {
   &-min {
     &-30 {
@@ -365,6 +415,7 @@ p {
 }
 
 /* -X axis- */
+
 .g {
   &-x {
     &-15 {
@@ -377,6 +428,7 @@ p {
 }
 
 /* -Y Axis- */
+
 .g {
   &-y {
     &-20 {
@@ -391,6 +443,7 @@ p {
 /* --------------------------------------
     Additional Space for specific section
 ----------------------------------------- */
+
 .p {
   &-10 {
     padding: 10px;
@@ -399,9 +452,13 @@ p {
     padding: 30px;
   }
 }
+
 .pt {
   &-55 {
     padding-top: 55px;
+  }
+  &-60 {
+    padding-top: 60px;
   }
   &-40 {
     padding-top: 40px;
@@ -435,6 +492,7 @@ p {
     }
   }
 }
+
 .pb {
   &-10 {
     padding-bottom: 10px;
@@ -449,6 +507,7 @@ p {
     padding-bottom: 30px;
   }
 }
+
 .py {
   &-30 {
     padding-top: 30px;
@@ -466,6 +525,7 @@ p {
     padding-bottom: 20px;
   }
 }
+
 .pl {
   &-10 {
     padding-left: 10px;
@@ -502,6 +562,7 @@ p {
     padding-left: 52%;
   }
 }
+
 .pr {
   &-20 {
     padding-right: 20px;
@@ -526,6 +587,7 @@ p {
     padding-right: 16px;
   }
 }
+
 .ml {
   &-6 {
     margin-left: 6px;
@@ -537,15 +599,26 @@ p {
     margin-left: 10px;
   }
 }
+
 .m-30 {
   margin: 30px;
 }
+
 .mt {
   &-30 {
     margin-top: 30px;
   }
+  &-35 {
+    margin-top: 35px;
+  }
   &-60 {
     margin-top: 60px;
+  }
+  &-86 {
+    margin-top: 86px;
+  }
+  &-177 {
+    margin-top: 177px;
   }
   &-10 {
     margin-top: 10px;
@@ -553,10 +626,20 @@ p {
   &-15 {
     margin-top: 15px;
   }
+  &-16 {
+    margin-top: 16px;
+  }
   &-20 {
     margin-top: 20px;
   }
+  &-22 {
+    margin-top: 22px;
+  }
+  &-negative3 {
+    margin-top: -3px;
+  }
 }
+
 .me {
   &-30 {
     margin-right: 30px;
@@ -576,6 +659,7 @@ p {
     }
   }
 }
+
 .mb {
   &-30 {
     margin-bottom: 30px;
@@ -587,6 +671,7 @@ p {
     margin-bottom: 10px;
   }
 }
+
 .my {
   &-20 {
     margin-top: 20px;
@@ -597,6 +682,7 @@ p {
 /* -End Here- */
 
 /* ---Data Background Image--- */
+
 [data-bg-image]:not(.bg-pattern) {
   background-color: $white;
   background-repeat: no-repeat;
@@ -605,21 +691,27 @@ p {
 }
 
 /* ---Text Color--- */
+
 .text-white {
   * {
     color: $white;
   }
 }
-.text-mac365-primary {
-  * {
-    color: $mac365-primary;
-  }
+
+.text-lightBlue {
+  color: #b9d1ff;
 }
+
+.text-darkBlue {
+  color: #2c405a;
+}
+
 .text-mac365-secondary {
   * {
     color: $mac365-secondary;
   }
 }
+
 .text-black {
   * {
     color: black;
@@ -627,14 +719,17 @@ p {
 }
 
 /* ---Background Color--- */
+
 .bg-white-smoke {
   background-color: #f4f4f4;
 }
+
 .bg-mac365-primary {
   background-color: $mac365-primary;
 }
 
 /* ---Section Title--- */
+
 .section {
   &-title {
     text-transform: uppercase;
@@ -686,6 +781,7 @@ p {
 }
 
 /* ---Background Image--- */
+
 .background-img {
   position: relative;
   .inner {
@@ -699,6 +795,7 @@ p {
 }
 
 /* ---Preloader--- */
+
 .preloader {
   &-active {
     position: fixed;
@@ -808,6 +905,7 @@ p {
 }
 
 /* ---Countdown--- */
+
 .countdown {
   &-wrap {
     &.with-dark-border {
@@ -838,6 +936,7 @@ p {
     }
   }
 }
+
 .countdown__item {
   display: inline-block;
   border: 2px solid #ebebeb;
@@ -846,6 +945,7 @@ p {
   text-align: center;
   width: 65px;
 }
+
 [class*="countdown__item"] {
   &:last-child {
     @include breakpoint(max-xxs-device) {
@@ -853,6 +953,7 @@ p {
     }
   }
 }
+
 .countdown__text {
   text-transform: capitalize;
   color: #404040;
@@ -861,6 +962,7 @@ p {
   font-size: 13px;
   display: block;
 }
+
 .countdown__time {
   position: relative;
   color: #242424;
@@ -876,6 +978,7 @@ p {
 }
 
 /* ---Tab Content & Pane Fix--- */
+
 .tab-content {
   width: 100%;
   .tab-pane {
@@ -896,6 +999,7 @@ p {
 }
 
 /* ---Social Link--- */
+
 .social-link {
   display: flex;
   .title {
@@ -945,6 +1049,7 @@ p {
 }
 
 /* ---Custom Button--- */
+
 .a-btn {
   &-mac365 {
     &-block {
@@ -967,6 +1072,7 @@ p {
     }
   }
 }
+
 .btn {
   &-custom-size {
     padding: 0;
@@ -1056,7 +1162,9 @@ p {
     }
   }
 }
+
 /* ---Button Position--- */
+
 .button-position {
   &-center {
     display: flex;
@@ -1065,6 +1173,7 @@ p {
 }
 
 /* ---Section Border--- */
+
 .section {
   &-border {
     &-top {
@@ -1081,6 +1190,7 @@ p {
 }
 
 /* ---Pagination--- */
+
 .pagination {
   &-area {
     padding-top: 50px;
@@ -1124,6 +1234,7 @@ p {
 }
 
 /* ---Image Zoom Effect--- */
+
 .img {
   &-zoom-effect {
     position: relative;
@@ -1182,6 +1293,7 @@ p {
 }
 
 /* ---Blockquote--- */
+
 blockquote {
   background-color: $mac365-primary;
   border-radius: 15px;
@@ -1211,6 +1323,7 @@ blockquote {
 }
 
 /* ---Global Overlay--- */
+
 .global-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   transition: $baseTransition;
@@ -1228,6 +1341,7 @@ blockquote {
 }
 
 /* ---Range Slider--- */
+
 .price-filter {
   .irs {
     &-min,
@@ -1265,6 +1379,7 @@ blockquote {
     }
   }
 }
+
 .voucher-filterStep1 {
   .irs {
     &-min,
@@ -1308,6 +1423,7 @@ blockquote {
     }
   }
 }
+
 .voucher-filterStep2 {
   .irs {
     &-min,
@@ -1351,6 +1467,7 @@ blockquote {
     }
   }
 }
+
 @include breakpoint(min-lg-device) {
   .voucher-filterStep2 {
     .irs {
@@ -1398,6 +1515,7 @@ blockquote {
 }
 
 /* ---Swiper Slider Border Issues--- */
+
 .swiper-container {
   &.border-issue {
     padding-bottom: 15px;
@@ -1406,6 +1524,7 @@ blockquote {
 }
 
 /* ---Quantity--- */
+
 .quantity {
   .cart-plus-minus {
     position: relative;
@@ -1463,6 +1582,7 @@ blockquote {
 }
 
 /* ---Price Box--- */
+
 .price-box {
   span {
     font-size: 20px;
@@ -1478,6 +1598,7 @@ blockquote {
 }
 
 /* ---Rating Box--- */
+
 .rating-box {
   display: flex;
   align-items: center;
@@ -1502,6 +1623,7 @@ blockquote {
 }
 
 /*-- Scroll To Top --*/
+
 .scroll-to-top {
   background-color: black;
   border-radius: 4px;
@@ -1533,6 +1655,7 @@ blockquote {
     display: inline-block;
   }
 }
+
 .product-hover:hover {
   @include breakpoint(min-lg-device) {
     background: $white;
