@@ -1,0 +1,57 @@
+.footer {
+    .line-title {
+        width: 64px;
+        height: 4px;
+        background-color: #ff9d43;
+    }
+    background: #002143;
+    padding-top: 90px;
+    color: #fff;
+    &-top {
+        padding-bottom: 90px;
+        .introduce {
+            ul {
+                margin-top: 18px;
+                li {
+                    margin-top: 18px;
+                    color: white;
+                    font-size: 16;
+                }
+            }
+        }
+        .about-us,
+        .care-client {
+            ul {
+                margin-top: 24px;
+                li {
+                    &:not(:first-child) {
+                        margin-top: 18px;
+                    }
+                    a {
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .info {
+            ul {
+                margin-top: 18px;
+                li {
+                    margin-top: 18px;
+                    color: white;
+                    font-size: 16;
+                }
+            }
+        }
+        .download-app {
+            background-color: black;
+            border-radius: 40px;
+            border: 1px solid #556b87;
+        }
+    }
+    &-bottom {
+        background-color: #001933;
+        padding: 17px;
+    }
+}
