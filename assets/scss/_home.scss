@@ -43,12 +43,23 @@
             margin-top: 40px;
         }
         &-shipping-info {
-            position: absolute;
+            left: 12%;
             &-item {
+                img {
+                    width: 40px;
+                    height: 40px;
+                    @media (min-width: 992px) {
+                        width: 96px;
+                        height: 96px;
+                    }
+                }
                 box-shadow: 0px 4px 20px rgba(119, 132, 157, 0.2);
                 border-radius: 4px;
-                min-width: 350px;
-                min-height: 300px;
+                max-width: 350px;
+                min-height: 190px;
+                @media (min-width: 992px) {
+                    min-height: 350px;
+                }
                 background: #fff;
                 .line-purple {
                     width: 64px;
@@ -77,7 +88,12 @@
                 background: #000;
                 border-radius: 6px;
                 padding: 10px 15px;
-                min-width: 226px;
+                @media (max-width: 992px) {
+                    max-width: 216px;
+                }
+                @media (min-width: 1200px) {
+                    min-width: 216px !important;
+                }
             }
         }
         .action-download {
@@ -85,7 +101,12 @@
                 background: #000;
                 border-radius: 40px;
                 padding: 10px 15px;
-                min-width: 226px;
+                @media (max-width: 992px) {
+                    max-width: 216px;
+                }
+                @media (min-width: 1200px) {
+                    min-width: 216px !important;
+                }
             }
         }
     }
@@ -96,18 +117,18 @@
             box-shadow: 0px 0px 36px rgba(156, 171, 185, 0.3);
             border-radius: 100rem;
             background: #ffffff;
-            &:nth-child(2) {
+            &-blue {
                 background-color: #5287ed;
                 .border-custom {
-                    border: 1px solid #ffffff;
+                    border: 1px solid #ffffff !important;
                 }
             }
             .border-custom {
                 width: 260px;
                 height: 260px;
-                border: 1px solid rgba(156, 171, 185, 0.3);
                 box-sizing: border-box;
                 border-radius: 100rem;
+                border: 1px solid rgba(156, 171, 185, 0.3);
             }
         }
         .line-background {
@@ -126,18 +147,33 @@
                 top: -25%;
                 left: 50%;
                 width: 228px;
+                @media (max-width: 991px) {
+                    transform: rotate(90deg);
+                    bottom: -25%;
+                    left: 56%;
+                    top: unset;
+                }
             }
             .position-arrow-up {
                 bottom: -25%;
                 left: 50%;
                 width: 228px;
+                @media (max-width: 991px) {
+                    transform: rotate(90deg);
+                    right: 57%;
+                    left: unset;
+                }
             }
             &-item {
                 background: #fff;
                 border-radius: 20px;
-                width: 198px;
+                min-width: 168px;
                 height: 236px;
                 overflow: hidden;
+                @media (max-width: 768px) {
+                    width: 210px;
+                    margin: auto;
+                }
                 &-number {
                     width: 80px;
                     height: 80px;
@@ -245,13 +281,15 @@
             padding: 96px 0 48px;
             &-item {
                 padding: 66px 36px 18px;
-                width: 255px;
+                max-width: 255px;
                 background: #fff;
                 border-radius: 16px;
+                margin: auto;
+                min-height: 174px;
                 .number {
                     &-blue-sky {
                         top: -33%;
-                        left: 33%;
+                        left: 30%;
                         width: 100px;
                         height: 100px;
                         border-radius: 100rem;
@@ -261,7 +299,7 @@
                     }
                     &-pink {
                         top: -33%;
-                        left: 33%;
+                        left: 30%;
                         width: 100px;
                         height: 100px;
                         border-radius: 100rem;
@@ -271,7 +309,7 @@
                     }
                     &-purple {
                         top: -33%;
-                        left: 33%;
+                        left: 30%;
                         width: 100px;
                         height: 100px;
                         border-radius: 100rem;
@@ -281,7 +319,7 @@
                     }
                     &-orange {
                         top: -33%;
-                        left: 33%;
+                        left: 30%;
                         width: 100px;
                         height: 100px;
                         border-radius: 100rem;
@@ -308,8 +346,9 @@
         &-title {}
         &-content {
             &-item {
-                width: 350px;
+                max-width: 350px;
                 border-radius: 4px;
+                box-shadow: 0px 4px 20px rgba(134, 152, 196, 0.37);
                 .line-blue {
                     width: 20%;
                     height: 5px;
@@ -330,7 +369,6 @@
         &-item {
             &-title {
                 .title {
-                    padding: 12px 25px;
                     background-color: #5287ed;
                     border-top-left-radius: 4px;
                     border-bottom-left-radius: 4px;
@@ -347,7 +385,6 @@
             }
             &-content {
                 background: #e3e6f3;
-                padding: 12px 25px;
                 border-radius: 4px;
             }
         }
@@ -363,6 +400,12 @@
                 padding: 23px;
                 border-radius: 16px;
                 box-shadow: 0px 4px 20px rgba(134, 152, 196, 0.37);
+                @media (max-width: 991px) {
+                    height: 90px;
+                }
+                @media (min-width: 992px) {
+                    height: 110px;
+                }
             }
         }
     }
