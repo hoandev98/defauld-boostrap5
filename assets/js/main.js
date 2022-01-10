@@ -361,7 +361,21 @@ if ($(".modal-slider").elExists()) {
     },
   });
 }
-
+/* ---feedback Slider--- */
+if ($(".feedbacks-bottom").elExists()) {
+  var mySwiper = new Swiper(".feedbacks-bottom", {
+    autoplay: true,
+    delay: 1000,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    // observer: true,
+    // observeParents: true,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+}
 /* ---Scene--- */
 $(".scene").each(function () {
   new Parallax($(this)[0]);

@@ -470,6 +470,10 @@ p {
 .py-128 {
   padding-top: 128px;
   padding-bottom: 128px; }
+  @media (max-width: 767px) {
+    .py-128 {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
 
 .py-10 {
   padding-top: 10px;
@@ -2681,8 +2685,14 @@ blockquote {
       background: #fff;
       color: #ff9635; }
 
-.content .feedbacks-bottom-item .avt-client img {
-  border-radius: 100rem; }
+.content .feedbacks-bottom {
+  --bs-gutter-x: 0;
+  overflow: hidden; }
+  .content .feedbacks-bottom-item {
+    max-width: 100%;
+    --bs-gutter-x: 0; }
+    .content .feedbacks-bottom-item .avt-client img {
+      border-radius: 100rem; }
 
 .content .news {
   background-color: #f4f6f8; }
