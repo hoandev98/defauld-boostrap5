@@ -3083,3 +3083,11 @@ blockquote {
       border: 0;
       border-radius: 40px;
       color: #fff; }
+
+.introduce-detail .breadcrumbs {
+  background-color: #F6F7FB;
+  padding: 20px 0px; }
+  .introduce-detail .breadcrumbs .text-title {
+    font-size: 16px;
+    color: #839CB0;
+    font-weight: 600; }
