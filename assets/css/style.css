@@ -2779,6 +2779,26 @@ blockquote {
       border-radius: 50px;
       padding: 16px 42px; }
 
+.main-app-mobile {
+  background-image: url(../images/appmobile/bg-appmobile.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-app-mobile .btn-appstore, .main-app-mobile .btn-chplay {
+    background-color: #000;
+    border-radius: 50px;
+    padding: 7px 20px;
+    border: 0;
+    max-width: 200px; }
+    @media (min-width: 992px) {
+      .main-app-mobile .btn-appstore, .main-app-mobile .btn-chplay {
+        min-width: 220px;
+        padding: 7px 10px; } }
+  .main-app-mobile .qr-code {
+    width: 80% !important; }
+    @media (min-width: 992px) {
+      .main-app-mobile .qr-code {
+        width: 100% !important; } }
+
 .content-login {
   background-image: url(../images/login/bg-login.png);
   background-repeat: no-repeat;

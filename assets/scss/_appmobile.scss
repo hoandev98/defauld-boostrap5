@@ -1,0 +1,26 @@
+.main-app-mobile{
+    background-image: url(../images/appmobile/bg-appmobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .btn-appstore,.btn-chplay{
+        background-color: #000;
+        border-radius: 50px;
+        padding: 7px 20px;
+        border: 0;
+        max-width: 200px;
+        @media (min-width:992px){
+            min-width: 220px;
+            padding: 7px 10px;
+        }
+    }
+    
+    .qr-code{
+        
+            width: 80% !important;
+            @media (min-width:992px){
+                width: 100% !important;
+            }
+        
+    }
+    
+}
