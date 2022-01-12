@@ -507,6 +507,9 @@ p {
 .pl-50 {
   padding-left: 50px; }
 
+.pl-45 {
+  padding-left: 45px; }
+
 @media (min-width: 992px) {
   .pl-lg-50 {
     padding-left: 50px; } }
@@ -2167,7 +2170,7 @@ blockquote {
       color: #2c405a;
       font-size: 16px; }
       .drop-menu > li > a:hover {
-        color: #ffffff; }
+        color: #381ca0; }
     .drop-menu > li:not(:last-child) {
       padding-bottom: 10px; }
 
@@ -2563,7 +2566,7 @@ blockquote {
     min-width: 168px;
     height: 236px;
     overflow: hidden; }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .content .processOrders-bottom-item {
         width: 210px;
         margin: auto; } }
@@ -2843,3 +2846,112 @@ blockquote {
       border: 0; }
     .content-login-content .form-content-login-right .text-register {
       color: #FFCFA1; }
+
+.content-register {
+  background-image: url(../images/login/bg-login.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .content-register-content .form-content-register {
+    overflow: hidden;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .content-register-content .form-content-register {
+        border-radius: 24px; } }
+    @media (min-width: 992px) {
+      .content-register-content .form-content-register-header .logo {
+        position: absolute;
+        left: 0; } }
+    .content-register-content .form-content-register-left input.email, .content-register-content .form-content-register-left input.password, .content-register-content .form-content-register-left input.code {
+      padding: 15px;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #839CB0; }
+      .content-register-content .form-content-register-left input.email::placeholder, .content-register-content .form-content-register-left input.password::placeholder, .content-register-content .form-content-register-left input.code::placeholder {
+        color: #839cb0; }
+    .content-register-content .form-content-register-left .show-password {
+      border: 0;
+      background: transparent;
+      top: 15px;
+      right: 10px; }
+    .content-register-content .form-content-register-left .line-text-register::before {
+      content: "";
+      height: 1px;
+      background: #839CB0;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 20%; }
+    .content-register-content .form-content-register-left .line-text-register::after {
+      content: "";
+      width: 20%;
+      height: 1px;
+      background: #839CB0;
+      position: absolute;
+      top: 50%;
+      right: 0; }
+    .content-register-content .form-content-register-left .register-with .btn-facebook, .content-register-content .form-content-register-left .register-with .btn-google {
+      padding: 15px 30px;
+      border-radius: 30px;
+      min-width: 250px; }
+      @media (min-width: 992px) {
+        .content-register-content .form-content-register-left .register-with .btn-facebook, .content-register-content .form-content-register-left .register-with .btn-google {
+          min-width: 160px; } }
+      @media (min-width: 1200px) {
+        .content-register-content .form-content-register-left .register-with .btn-facebook, .content-register-content .form-content-register-left .register-with .btn-google {
+          min-width: 200px; } }
+    .content-register-content .form-content-register-left .register-with .btn-facebook {
+      background-color: #518CFF;
+      border: 0; }
+    .content-register-content .form-content-register-left .register-with .btn-google {
+      background-color: #FF816B;
+      border: 0; }
+    .content-register-content .form-content-register-right input.email, .content-register-content .form-content-register-right input.password {
+      padding: 15px;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #839CB0; }
+      .content-register-content .form-content-register-right input.email::placeholder, .content-register-content .form-content-register-right input.password::placeholder {
+        color: #839cb0; }
+    .content-register-content .form-content-register-right .show-password {
+      border: 0;
+      background: transparent;
+      top: 15px;
+      right: 10px; }
+    .content-register-content .form-content-register-right .register-with .btn-facebook, .content-register-content .form-content-register-right .register-with .btn-google {
+      padding: 15px 30px;
+      border-radius: 30px;
+      min-width: 250px; }
+      @media (min-width: 992px) {
+        .content-register-content .form-content-register-right .register-with .btn-facebook, .content-register-content .form-content-register-right .register-with .btn-google {
+          min-width: 160px; } }
+      @media (min-width: 1200px) {
+        .content-register-content .form-content-register-right .register-with .btn-facebook, .content-register-content .form-content-register-right .register-with .btn-google {
+          min-width: 200px; } }
+    .content-register-content .form-content-register-right .register-with .btn-facebook {
+      background-color: #518CFF;
+      border: 0; }
+    .content-register-content .form-content-register-right .register-with .btn-google {
+      background-color: #FF816B;
+      border: 0; }
+    .content-register-content .form-content-register-right .text-register {
+      color: #FFCFA1; }
+    .content-register-content .form-content-register-right select {
+      padding: 15px;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #839CB0; }
+    .content-register-content .form-content-register .btn-register {
+      background: #5287ed;
+      border-radius: 50px;
+      padding: 16px 42px;
+      border: 0; }
+    .content-register-content .form-content-register .register-with-fb {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #518CFF; }
+    .content-register-content .form-content-register .register-with-gg {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #FF816B; }
