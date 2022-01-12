@@ -43,6 +43,11 @@
             @content;
         }
     }
+     @if $point == custom-sm-device {
+        @media (max-width: 767px )and (min-width: 575px) {
+            @content;
+        }
+    }
     @if $point == max-xs-device {
         @media (max-width: 575px) {
             @content;
