@@ -1,0 +1,41 @@
+.fee{
+    .text-link{
+        color: #5287ED;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    ul>li{
+        margin-bottom: 8px;
+        list-style-type: disc;
+        display: list-item
+            }
+    &-header{
+        background: url(../images/introduce/bg-header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-content{
+        padding: 46px 0;
+        &-step{
+            &-image{
+            height: 160px;
+            width: 160px;
+            background-color: #5287ED;
+            border-radius: 100rem;
+            @media (min-width:992px){
+                height: 160px;
+                width: 160px;
+            }
+            @media (min-width:768px)and (max-width:991px){
+                height: 120px;
+                width: 120px;
+            }
+        }
+    }
+    &-detail{
+        &-step4{
+            
+        }
+    }
+}
+}
